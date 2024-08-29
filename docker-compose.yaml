@@ -1,0 +1,10 @@
+#docker-compose up -d --build
+services:
+  app:
+    image: almalinux:latest
+    build: .
+    tty: true
+    privileged: true
+    command: /sbin/init
+    volumes:
+      - ./app:/app
