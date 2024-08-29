@@ -1,5 +1,5 @@
 # srt_convert
-音声データを文字起こししSrtファイルに変換する．  
+音声データを文字起こしてSrtファイルに変換する．  
 実行環境：Window11、CPU Intel  
 CPUがIntelではない場合はDockerfileのffmpegのダウンロード先を変更してください🙇  
 dataディレクトリに音声データを入れてからお使い下さい．前手順としてDockerを用いた環境構築が必要です．  
